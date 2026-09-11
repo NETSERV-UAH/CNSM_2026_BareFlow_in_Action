@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="SldW8jfStCgSEN0LAHgZ">
+    <mxGraphModel dx="864" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="500" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-60" value="Traffic Manager (TM)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Packet Replication Engine (PRE)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="800" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="790" y="530" width="560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fontSize=28;" edge="1" parent="1" source="Nr-tbjPy17Q5pXINko-E-74" target="Nr-tbjPy17Q5pXINko-E-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-74" value="Ingress Process" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="970" y="550" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fontSize=28;" edge="1" parent="1" source="Nr-tbjPy17Q5pXINko-E-77" target="Nr-tbjPy17Q5pXINko-E-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=4;fontSize=28;" edge="1" parent="1" source="Nr-tbjPy17Q5pXINko-E-77" target="Nr-tbjPy17Q5pXINko-E-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="378.1818181818184" y="590.2121212121212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-77" value="Ingress Parser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="810" y="550" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=4;fontSize=28;" edge="1" parent="1" source="Nr-tbjPy17Q5pXINko-E-79" target="Nr-tbjPy17Q5pXINko-E-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-79" value="PktGen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="640" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-80" value="Ingress Deparser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="550" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontSize=28;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1618" y="630" as="targetPoint" />
+            <mxPoint x="1570" y="629.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-88" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=3;fontSize=28;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="669.4699999999999" as="sourcePoint" />
+            <mxPoint x="1510" y="589.4699999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1470" y="669.4699999999999" />
+              <mxPoint x="1470" y="589.4699999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-89" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=3;fontSize=28;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="589.4699999999999" as="sourcePoint" />
+            <mxPoint x="1510" y="669.4699999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="589.4699999999999" />
+              <mxPoint x="1460" y="669.4699999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-90" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;fontSize=28;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="589.52" as="sourcePoint" />
+            <mxPoint x="1510" y="589.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;fontSize=28;" edge="1" parent="1" source="Nr-tbjPy17Q5pXINko-E-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1371.2000000000003" y="630.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-96" value="Low Ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-101" value="Low Ports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="1619" y="550" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr-tbjPy17Q5pXINko-E-104" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;fontSize=28;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="669.92" as="sourcePoint" />
+            <mxPoint x="1510" y="669.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
